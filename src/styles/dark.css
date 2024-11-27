@@ -1,0 +1,22 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Light Theme */
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Theme */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* Optional transitions for a smooth effect */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
